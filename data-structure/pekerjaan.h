@@ -19,13 +19,13 @@ namespace pekerjaan
         std::string pekerjaan;
         std::string biaya;
         std::string tanggalSelesai;
-        std::cout << "Input Pekerjaan Customer \t: ";                
+        std::cout << "Input Jenis Layanan Servis \t: ";                
         std::getline(std::cin, pekerjaan);
 
-        std::cout << "Input Biaya Customer \t\t: ";
+        std::cout << "Input Total Biaya \t\t: ";
         std::getline(std::cin, biaya);
 
-        std::cout << "Input Tanggal Selesai Customer \t: ";
+        std::cout << "Input Tanggal Selesai \t\t: ";
         std::getline(std::cin, tanggalSelesai);
         
         head->pekerjaan = pekerjaan;
@@ -40,9 +40,9 @@ namespace pekerjaan
         Node *list{head};
         while (list)
         {
-            std::cout << "\nPekerjaan \t: " << list->pekerjaan << std::endl;
-            std::cout << "Biaya \t\t: " << list->biaya << std::endl;
-            std::cout << "Tanggal Selesai : " << list->tanggalSelesai << std::endl;
+            std::cout << "\nJenis Layanan Servis \t: " << list->pekerjaan << std::endl;
+            std::cout << "Total Biaya \t\t: " << list->biaya << std::endl;
+            std::cout << "Tanggal Selesai \t: " << list->tanggalSelesai << std::endl;
         
             list = list->next;
         }
@@ -54,13 +54,13 @@ namespace pekerjaan
         std::string biaya;
         std::string tanggalSelesai;
         
-        std::cout << "\nInput Pekerjaan Customer \t: ";
+        std::cout << "\nInput Jenis Layanan Servis \t: ";
         std:getline(std::cin, pekerjaan);
 
-        std::cout << "Input Biaya Customer \t\t: ";
+        std::cout << "Input Total Biaya \t\t: ";
         std::getline(std::cin, biaya);
 
-        std::cout << "Input Tanggal Selesai Customer \t: ";
+        std::cout << "Input Tanggal Selesai \t\t: ";
         std::getline(std::cin, tanggalSelesai);
 
         Node *newData{new Node};

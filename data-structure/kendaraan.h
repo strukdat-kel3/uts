@@ -43,7 +43,7 @@ namespace kendaraan
         Node *list{head};
         while (list)
         {
-           std::cout <<"Merek \t\t\t: " <<list->merek << std::endl;
+           std::cout <<"\nMerek \t\t\t: " <<list->merek << std::endl;
            std::cout <<"Model \t\t\t: " <<list->model << std::endl;
            std::cout <<"Nomor plat \t\t: " <<list->nomorPlat << std::endl;
            std::cout <<"Tahun pembuatan \t: " <<list->tahunPembuatan << std::endl;
@@ -57,7 +57,7 @@ namespace kendaraan
         std::string model;
         std::string nomorPlat;
         unsigned short tahunPembuatan;
-        std::cout << "Input merek kendaraan \t\t: ";
+        std::cout << "\nInput merek kendaraan \t\t: ";
         std::getline(std::cin, merek);
         std::cout << "Input model kendaraan \t\t: ";
         std::getline(std::cin, model);
