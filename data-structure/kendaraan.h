@@ -21,7 +21,7 @@ namespace kendaraan
         std::string model;
         std::string nomorPlat;
         unsigned short tahunPembuatan;
-        std::cout << "Input merek kendaraan \t\t: ";
+        std::cout << "\nInput merek kendaraan \t\t: ";
         std::getline(std::cin, merek);
         std::cout << "Input model kendaraan \t\t: ";
         std::getline(std::cin, model);

@@ -19,7 +19,7 @@ namespace pekerjaan
         std::string pekerjaan;
         std::string biaya;
         std::string tanggalSelesai;
-        std::cout << "Input Jenis Layanan Servis \t: ";                
+        std::cout << "\nInput Jenis Layanan Servis \t: ";                
         std::getline(std::cin, pekerjaan);
 
         std::cout << "Input Total Biaya \t\t: ";
